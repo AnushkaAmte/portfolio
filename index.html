@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Personal Site</title>
+  <meta name="description" content="A simple personal website hosted on GitHub Pages." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1>Your Name</h1>
+      <p>Engineer • Builder • Lifelong Learner</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About</h2>
+      <p>
+        Hi! I’m a developer who enjoys building useful products and learning new technologies.
+        This is my small corner of the internet.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Project One</strong> — Short description of what it does.</li>
+        <li><strong>Project Two</strong> — Short description of what it does.</li>
+        <li><strong>Project Three</strong> — Short description of what it does.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>
+        Find me on <a href="https://github.com/your-username" target="_blank" rel="noreferrer">GitHub</a>
+        or email me at <a href="mailto:you@example.com">you@example.com</a>.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="year"></span> Your Name</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
